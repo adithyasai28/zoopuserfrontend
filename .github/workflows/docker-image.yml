@@ -22,7 +22,7 @@ jobs:
 
     - name: Build image
       run: |
-        IMAGE_NAME=ghcr.io/aryashu-1/zoopuserfrontend/app:latest
+        IMAGE_NAME=ghcr.io/adithyasai28/zoopuserfrontend/app:latest
         docker build -t $IMAGE_NAME .
         echo "IMAGE_NAME=$IMAGE_NAME" >> $GITHUB_ENV
 
